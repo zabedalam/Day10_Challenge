@@ -44,6 +44,12 @@ for (var i = 0; i < 100; i++) {
 
 }
 
+// var makeARandomNumber = function () {
+//     return Math.floor(Math.random() * 100);
+// }
+// var randoms = Array(100).fill(0).map(makeARandomNumber);
+// console.log(randoms)
+
 // 27) Wrote a function to get the MAX and the MIN from the previously created array
 function maxValue() {
     console.log(Math.max(...newArray))
@@ -56,10 +62,3 @@ function minValue() {
 }
 
 //  28) Create an array of arrays, in which every array has 10 random numbers
-var x = new Array(10);
-
-for (var i = 0; i < x.length; i++) {
-    x[i] = new Array(Math.floor(Math.random() * 10));
-}
-
-console.log(x);
